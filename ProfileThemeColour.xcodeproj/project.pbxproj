@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76651D02D28526700E6E9B8 /* ProfileThemeColour Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B76651CF2D28526700E6E9B8 /* ProfileThemeColour Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B76651BA2D28526700E6E9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76651952D28526600E6E9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B766519C2D28526600E6E9B8;
+			remoteInfo = ProfileThemeColour;
+		};
+		B76651C42D28526700E6E9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76651952D28526600E6E9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B766519C2D28526600E6E9B8;
+			remoteInfo = ProfileThemeColour;
+		};
+		B76651D12D28526700E6E9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76651952D28526600E6E9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76651CE2D28526700E6E9B8;
+			remoteInfo = "ProfileThemeColour Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B76651EF2D28526700E6E9B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B76651D02D28526700E6E9B8 /* ProfileThemeColour Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B766519D2D28526600E6E9B8 /* ProfileThemeColour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileThemeColour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76651B92D28526700E6E9B8 /* ProfileThemeColourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileThemeColourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76651C32D28526700E6E9B8 /* ProfileThemeColourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileThemeColourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76651CF2D28526700E6E9B8 /* ProfileThemeColour Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ProfileThemeColour Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B76651E92D28526700E6E9B8 /* Exceptions for "ProfileThemeColour Extension" folder in "ProfileThemeColour Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B76651CE2D28526700E6E9B8 /* ProfileThemeColour Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B766519F2D28526600E6E9B8 /* ProfileThemeColour */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileThemeColour;
+			sourceTree = "<group>";
+		};
+		B76651BC2D28526700E6E9B8 /* ProfileThemeColourTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileThemeColourTests;
+			sourceTree = "<group>";
+		};
+		B76651C62D28526700E6E9B8 /* ProfileThemeColourUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileThemeColourUITests;
+			sourceTree = "<group>";
+		};
+		B76651D32D28526700E6E9B8 /* ProfileThemeColour Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B76651E92D28526700E6E9B8 /* Exceptions for "ProfileThemeColour Extension" folder in "ProfileThemeColour Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "ProfileThemeColour Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B766519A2D28526600E6E9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651B62D28526700E6E9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651C02D28526700E6E9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651CC2D28526700E6E9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B76651942D28526600E6E9B8 = {
+			isa = PBXGroup;
+			children = (
+				B766519F2D28526600E6E9B8 /* ProfileThemeColour */,
+				B76651BC2D28526700E6E9B8 /* ProfileThemeColourTests */,
+				B76651C62D28526700E6E9B8 /* ProfileThemeColourUITests */,
+				B76651D32D28526700E6E9B8 /* ProfileThemeColour Extension */,
+				B766519E2D28526600E6E9B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B766519E2D28526600E6E9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B766519D2D28526600E6E9B8 /* ProfileThemeColour.app */,
+				B76651B92D28526700E6E9B8 /* ProfileThemeColourTests.xctest */,
+				B76651C32D28526700E6E9B8 /* ProfileThemeColourUITests.xctest */,
+				B76651CF2D28526700E6E9B8 /* ProfileThemeColour Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B766519C2D28526600E6E9B8 /* ProfileThemeColour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76651F02D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColour" */;
+			buildPhases = (
+				B76651992D28526600E6E9B8 /* Sources */,
+				B766519A2D28526600E6E9B8 /* Frameworks */,
+				B766519B2D28526600E6E9B8 /* Resources */,
+				B76651EF2D28526700E6E9B8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76651D22D28526700E6E9B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B766519F2D28526600E6E9B8 /* ProfileThemeColour */,
+			);
+			name = ProfileThemeColour;
+			packageProductDependencies = (
+			);
+			productName = ProfileThemeColour;
+			productReference = B766519D2D28526600E6E9B8 /* ProfileThemeColour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B76651B82D28526700E6E9B8 /* ProfileThemeColourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76651F32D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColourTests" */;
+			buildPhases = (
+				B76651B52D28526700E6E9B8 /* Sources */,
+				B76651B62D28526700E6E9B8 /* Frameworks */,
+				B76651B72D28526700E6E9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76651BB2D28526700E6E9B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B76651BC2D28526700E6E9B8 /* ProfileThemeColourTests */,
+			);
+			name = ProfileThemeColourTests;
+			packageProductDependencies = (
+			);
+			productName = ProfileThemeColourTests;
+			productReference = B76651B92D28526700E6E9B8 /* ProfileThemeColourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B76651C22D28526700E6E9B8 /* ProfileThemeColourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76651F62D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColourUITests" */;
+			buildPhases = (
+				B76651BF2D28526700E6E9B8 /* Sources */,
+				B76651C02D28526700E6E9B8 /* Frameworks */,
+				B76651C12D28526700E6E9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76651C52D28526700E6E9B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B76651C62D28526700E6E9B8 /* ProfileThemeColourUITests */,
+			);
+			name = ProfileThemeColourUITests;
+			packageProductDependencies = (
+			);
+			productName = ProfileThemeColourUITests;
+			productReference = B76651C32D28526700E6E9B8 /* ProfileThemeColourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B76651CE2D28526700E6E9B8 /* ProfileThemeColour Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76651EA2D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColour Extension" */;
+			buildPhases = (
+				B76651CB2D28526700E6E9B8 /* Sources */,
+				B76651CC2D28526700E6E9B8 /* Frameworks */,
+				B76651CD2D28526700E6E9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B76651D32D28526700E6E9B8 /* ProfileThemeColour Extension */,
+			);
+			name = "ProfileThemeColour Extension";
+			packageProductDependencies = (
+			);
+			productName = "ProfileThemeColour Extension";
+			productReference = B76651CF2D28526700E6E9B8 /* ProfileThemeColour Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76651952D28526600E6E9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B766519C2D28526600E6E9B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B76651B82D28526700E6E9B8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B766519C2D28526600E6E9B8;
+					};
+					B76651C22D28526700E6E9B8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B766519C2D28526600E6E9B8;
+					};
+					B76651CE2D28526700E6E9B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = B76651982D28526600E6E9B8 /* Build configuration list for PBXProject "ProfileThemeColour" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76651942D28526600E6E9B8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B766519E2D28526600E6E9B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B766519C2D28526600E6E9B8 /* ProfileThemeColour */,
+				B76651B82D28526700E6E9B8 /* ProfileThemeColourTests */,
+				B76651C22D28526700E6E9B8 /* ProfileThemeColourUITests */,
+				B76651CE2D28526700E6E9B8 /* ProfileThemeColour Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B766519B2D28526600E6E9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651B72D28526700E6E9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651C12D28526700E6E9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651CD2D28526700E6E9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B76651992D28526600E6E9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651B52D28526700E6E9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651BF2D28526700E6E9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76651CB2D28526700E6E9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B76651BB2D28526700E6E9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B766519C2D28526600E6E9B8 /* ProfileThemeColour */;
+			targetProxy = B76651BA2D28526700E6E9B8 /* PBXContainerItemProxy */;
+		};
+		B76651C52D28526700E6E9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B766519C2D28526600E6E9B8 /* ProfileThemeColour */;
+			targetProxy = B76651C42D28526700E6E9B8 /* PBXContainerItemProxy */;
+		};
+		B76651D22D28526700E6E9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B76651CE2D28526700E6E9B8 /* ProfileThemeColour Extension */;
+			targetProxy = B76651D12D28526700E6E9B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B76651EB2D28526700E6E9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ProfileThemeColour Extension/ProfileThemeColour_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProfileThemeColour Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ProfileThemeColour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColour.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B76651EC2D28526700E6E9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ProfileThemeColour Extension/ProfileThemeColour_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProfileThemeColour Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ProfileThemeColour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColour.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B76651ED2D28526700E6E9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B76651EE2D28526700E6E9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B76651F12D28526700E6E9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProfileThemeColour/ProfileThemeColour.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProfileThemeColour;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B76651F22D28526700E6E9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProfileThemeColour/ProfileThemeColour.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProfileThemeColour;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B76651F42D28526700E6E9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileThemeColour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProfileThemeColour";
+			};
+			name = Debug;
+		};
+		B76651F52D28526700E6E9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileThemeColour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProfileThemeColour";
+			};
+			name = Release;
+		};
+		B76651F72D28526700E6E9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ProfileThemeColour;
+			};
+			name = Debug;
+		};
+		B76651F82D28526700E6E9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.navalho.ProfileThemeColour.ProfileThemeColourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ProfileThemeColour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76651982D28526600E6E9B8 /* Build configuration list for PBXProject "ProfileThemeColour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76651ED2D28526700E6E9B8 /* Debug */,
+				B76651EE2D28526700E6E9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76651EA2D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColour Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76651EB2D28526700E6E9B8 /* Debug */,
+				B76651EC2D28526700E6E9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76651F02D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76651F12D28526700E6E9B8 /* Debug */,
+				B76651F22D28526700E6E9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76651F32D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76651F42D28526700E6E9B8 /* Debug */,
+				B76651F52D28526700E6E9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76651F62D28526700E6E9B8 /* Build configuration list for PBXNativeTarget "ProfileThemeColourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76651F72D28526700E6E9B8 /* Debug */,
+				B76651F82D28526700E6E9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B76651952D28526600E6E9B8 /* Project object */;
+}
