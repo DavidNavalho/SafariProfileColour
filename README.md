@@ -1,7 +1,5 @@
 # ProfileThemeColour
 
-![ProfileThemeColour Logo](path/to/logo.png) <!-- Optional: Add a logo image -->
-
 ## Table of Contents
 
 - [Overview](#overview)
